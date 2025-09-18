@@ -54,5 +54,5 @@ int func(int x, int y){
 ```
 
 附：
-![picture1](/home/zhangqiyuan/ICS1-Lab/hw1.jpg)
+![picture1](/home/zhangqiyuan/ICS1-Lab/Homework/hw1.jpg)
 
