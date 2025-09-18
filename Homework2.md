@@ -35,3 +35,5 @@ int uadd_ok(unsigned x, unsigned y){
 ```
 
 附：
+
+![picture1](/home/zhangqiyuan/ICS1-Lab/hw2.jpg)
