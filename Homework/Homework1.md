@@ -31,12 +31,7 @@ f) A||B = 1
 ```C
 #include <stdio.h>
 int func(int x){
-    int y = 0;
-    int z = 0xFF;
-    if (!(x ^ ~y) || !(x ^ y) || (x & z) || (x ^ ~z)){
-        return 1;
-    }
-    return 0;
+    return !(x ^ ~0) || !x || !((x & 0xFF) ^ (0xFF)) || !(x & 0xFF);
 }
 ```
 
