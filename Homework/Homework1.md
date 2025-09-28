@@ -57,5 +57,5 @@ int func(int x, int y){
 ```
 
 附：
-![picture1](/Homework/hw1.jpg)
+![picture1](/Homework/hw1.png)
 
