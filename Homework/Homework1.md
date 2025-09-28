@@ -29,9 +29,17 @@ f) A||B = 1
 3
 
 ```C
-#include <stdio.h>
-int func(int x){
-    return !(x ^ ~0) || !x || !((x & 0xFF) ^ (0xFF)) || !(x & 0xFF);
+int func_a(int x){
+    return !(x ^ ~0);
+}
+int func_b(int x){
+    return !x;
+}
+int func_c(int x){
+    return !((x & 0xFF) ^ (0xFF));
+}
+int func_d(int x){
+    return !(x & 0xFF);
 }
 ```
 
@@ -40,7 +48,7 @@ int func(int x){
 ```C
 #include <stdio.h>
 int func(int x, int y){
-    int z = 0xFFFF
+    int z = 0xFFFF;
     int a = x & z;
     int b = y & z;
     b = y - b;
