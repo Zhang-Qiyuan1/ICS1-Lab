@@ -1,5 +1,5 @@
 # 答案
-
+---
 张启元 2024201541
 
 1
@@ -28,12 +28,11 @@
 ```C
 #include <stdio.h>
 int uadd_ok(unsigned x, unsigned y){
-    int z = 0xFFFF
-    if (z - x >= y) return 0;
-    else return 1;
+    unsigned sum = x + y;
+    return (sum < x || sum < y);
 }
 ```
 
 附：
 
-![picture1](/home/zhangqiyuan/ICS1-Lab/Homework/hw2.jpg)
+![picture1](/Homework/hw2.jpg)
