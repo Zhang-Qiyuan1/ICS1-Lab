@@ -35,4 +35,4 @@ int uadd_ok(unsigned x, unsigned y){
 
 附：
 
-![picture1](/Homework/hw2.jpg)
+![picture1](/imgs/hw2.png)
